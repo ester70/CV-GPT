@@ -1,0 +1,136 @@
+/* קובץ עיצוב מעודכן */
+
+/* סגנון כללי */
+body {
+    font-family: Arial, sans-serif;
+  }
+  #myName {
+    align-self: center;
+    text-align: center;
+    font-size: 3em; 
+    margin-top: 20px;
+}
+
+.greenBackground {
+    background: linear-gradient(135deg, #005353 30%, #008080 70%); /* צבע כהה וצבע בהיר של 008080 עם פער גדול יותר */
+    padding: 5px;
+    margin-top: 0.5px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    color: #fff;
+    /*margin-bottom: 10px; */
+}
+  
+  .resume {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  /* סגנון לסקציות */
+  .resume section {
+    text-align: right;
+    width: 750px;
+    padding: 10px;
+    padding-right: 3%;
+
+  }
+  
+  /* סגנון לכותרות */
+  .resume h2 {
+    color: #333;
+  }
+  
+  /* סגנון לכותרות משניות */
+  .resume h3 {
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* סגנון לפסקאות */
+  .resume p {
+    color: #666;
+    margin-bottom: 0%;
+  }
+  
+  /* סגנון לרשימות */
+  .resume ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  /* סגנון לפריטי רשימה */
+  .resume li {
+    margin-bottom: 5px;
+    direction: rtl;
+    text-align: right;
+  }
+  
+  /* סגנון לסמל ברשימה */
+  .resume li::before {
+    content: "\2022";
+    color: #666;
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.5em;
+  }
+  
+  /* סגנון לקישורים */
+  .resume a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* סגנון לתאריך */
+  .resume section .date {
+    display: inline-block;
+  }
+  
+  /* סגנון לכותרת הסקציה */
+  .section-heading {
+    border-bottom: 3px solid #e0e0e0;
+    width: 100%;
+    display: block;
+  }
+  
+  /* סגנון לסמל בצד הכותרת */
+  .fa-icon {
+    display: inline-block;
+    border: 2px solid #008080;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #008080;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* סגנון לתמונה בתוך העיגול */
+  .fa-icon img {
+    border-radius: 50%;
+    width: 100%;
+  }
+  
+  /* סגנון לאייקונים בצבע לבן */
+  .section-heading svg {
+    color: white;
+  }
+  
+  /* סגנון לפרופיל */
+  .myProfile {
+    direction: rtl;
+    text-align: center;
+    font-size: 120%;
+
+  }
+  .subTitle{
+    direction: rtl;
+    text-align: center;
+    font-size: 70%;
+  }
+  
