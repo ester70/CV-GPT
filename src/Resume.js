@@ -72,7 +72,7 @@ const Resume = () => {
                 <p  className='date'><strong>  : 2011 - 2013 </strong> </p>
             </Section>
 
-            <Section title="ניסיון תעסוקתית" icon={faBriefcase}>
+            <Section title="ניסיון תעסוקתי" icon={faBriefcase}>
                 <p>
                 <strong>  עיריית ירושלים מחלקת תכנון ואסטרטגיה <div className= "date">: 08.2023 -  היום </div></strong>
                 </p>
